@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.site-header {
+    background-color: #1d1d1d;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.logo h1 span{
+   color:rgb(255, 153, 0);
+}
+
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation li {
+    margin-left: 20px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    background-image: url('baner.jpeg'); /* Замените на свой URL изображения */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+	background-attachment:fixed;
+}
+
+.banner-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для текста */
+    padding: 20px;
+	padding-top: 5%;
+    border-radius: 10px;
+	width: 80%;
+	height: 200px;
+	
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.banner p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.banner-button {
+    background-color: rgb(255, 153, 0);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+	margin-top: 20px;
+}
+
+.banner-button:hover {
+    background-color: rgba(255, 72, 0, 0.774); /* Эффект наведения */
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex; /* Используем Flexbox для создания двух столбцов */
+    padding: 20px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.column {
+    flex: 1; /* Оба столбца занимают равное пространство */
+    padding: 20px;
+    box-sizing: border-box; /* Учитываем паддинг в общей ширине */
+}
+
+.left-column {
+    background-color: #f0f0f0; /* Светлый фон для левого столбца */
+}
+
+.right-column {
+    background-color: #e0e0e0; /* Немного темнее фон для правого столбца */
+}
+
+h2 {
+    margin-top: 0; /* Убираем верхний отступ заголовка */
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex; /* Используем Flexbox для размещения плиток в ряд */
+    justify-content: space-between; /* Распределяем пространство между плитками */
+    padding: 20px;
+}
+
+.tile {
+    background-color:rgb(255, 153, 0); /* Зеленый фон для плиток */
+    color: white; /* Белый цвет текста */
+    text-align: center; /* Центрируем текст */
+    padding: 20px; /* Внутренние отступы */
+    flex: 1; /* Каждая плитка занимает равное пространство */
+    margin: 0 10px; /* Отступы между плитками */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для плиток */
+    transition: transform 0.2s; /* Плавный эффект при наведении */
+}
+
+.tile:hover {
+    transform: scale(1.05); /* Увеличение плитки при наведении */
+}
+
+
+
+.dropbtn {
+    background-color: #1d1d1d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    background-color: #1d1d1d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(255, 136, 0);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.gabilondo-menu a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000;
+    transition: all .2s ease-in-out;
+    box-shadow: inset 0px 9px 9px rgb(195, 0, 255 .2);
+}
+
+.menu1 {
+    font-size: 23px;
+}
+
+.menu1:hover {
+    transform: scale(1.04);
+}
+
+.menu2 {
+    font-size: 23px;
+}
+
+.menu2:hover {
+    transform: scale(1.04);
+}
+
+.menu3 {
+    font-size: 23px;
+}
+
+.menu3:hover {
+    transform: scale(1.04);
+}
+
+.menu4 {
+    font-size: 23px;
+}
+
+.menu4:hover {
+    transform: scale(1.04);
+}
+
+.menu5 {
+    font-size: 23px;
+}
+
+.menu5:hover {
+    transform: scale(1.04);
+}
+
+.menu6 {
+    font-size: 23px;
+}
+
+.menu6:hover {
+    transform: scale(1.04);
+}
+
+.menu7 {
+    font-size: 23px;
+}
+
+.menu7:hover {
+    transform: scale(1.04);
+}
